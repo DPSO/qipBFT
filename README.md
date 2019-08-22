@@ -1,5 +1,5 @@
 <p align="center">
-    # [qip] BFT
+# [qip] BFT
 </p>
 
 <p align="center">
