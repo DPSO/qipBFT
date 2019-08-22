@@ -57,7 +57,7 @@ if sys.platform == "win32":
     import winreg
 
 ######## GLOBALS #########
-project = "@qiptpl"
+project = "@qipBFT"
 project_version = "3.0.0"
 arma3tools_path = ""
 work_drive = ""
@@ -66,13 +66,13 @@ make_root = ""
 release_dir = ""
 module_root_parent = ""
 optionals_root = ""
-key_name = "qiptpl"
+key_name = "qipBFT"
 key = ""
 dssignfile = ""
-prefix = "qiptpl"
-pbo_name_prefix = "qiptpl_"
+prefix = "qipBFT"
+pbo_name_prefix = "qipBFT_"
 signature_blacklist = []
-importantFiles = ["mod.cpp", "README.md", "AUTHORS.txt", "LICENSE", "logo_qiptpl_ca.paa"]
+importantFiles = ["mod.cpp", "README.md", "AUTHORS.txt", "LICENSE", "logo_qipBFT_ca.paa"]
 versionFiles = ["README.md", "mod.cpp"]
 
 ciBuild = False # Used for CI builds

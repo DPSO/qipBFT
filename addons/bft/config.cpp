@@ -6,7 +6,10 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {"qiptpl_main"};
+        requiredAddons[] = {
+            "qipBFT_main",
+            "qipBFT_common"
+        };
         author = "NemesisRE";
         authors[] = {"baermitumlaut", "commy2"};
         VERSION_CONFIG;

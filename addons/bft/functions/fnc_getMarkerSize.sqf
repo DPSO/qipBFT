@@ -10,7 +10,7 @@
  * Marker Size <ARRAY>
  *
  * Example:
- * ["UNIT"] call qipTPL_bft_fnc_getMarkerSize
+ * ["UNIT"] call qipBFT_bft_fnc_getMarkerSize
  *
  * Public: No
  */

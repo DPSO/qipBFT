@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="qipTPL">
+<Project name="qipBFT">
     <Package name="Main">
-        <Key ID="STR_qipTPL_Main_URL">
+        <Key ID="STR_qipBFT_Main_URL">
             <English>https://units.arma3.com/unit/qip</English>
             <German>https://units.arma3.com/unit/qip</German>
             <Polish>https://units.arma3.com/unit/qip</Polish>

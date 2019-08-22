@@ -1,4 +1,0 @@
-[submodule "extras/qipMissionTPL"]
-	path = extras/qipMissionTPL
-	url = https://github.com/quies-in-proelium/qipMissionTPL
-	branch = master

@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * ["0:1"] call qipTPL_bft_fnc_showGroupDetails
+ * ["0:1"] call qipBFT_bft_fnc_showGroupDetails
  *
  * Public: No
  */

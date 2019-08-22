@@ -14,21 +14,21 @@ class CfgPatches {
         };
         author = "NemesisRE";
         authors[] = {};
-        authorUrl = "https://nrecom.net";
+        authorUrl = "https://ngn.gg";
         VERSION_CONFIG;
     };
 };
 
 class CfgMods {
     class PREFIX {
-        dir = "@qipTPL";
-        name = "[qip] Mission Template Mod";
+        dir = "@qipBFT";
+        name = "[qip] Blufor Tracking";
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
         hidePicture = "true";
         hideName = "true";
         actionName = "Website";
         action = CSTRING(URL);
-        description = "Issue Tracker: https://github.com/quies-in-proelium/qiptpl/issues";
+        description = "Issue Tracker: https://github.com/quies-in-proelium/qipBFT/issues";
     };
 };
 

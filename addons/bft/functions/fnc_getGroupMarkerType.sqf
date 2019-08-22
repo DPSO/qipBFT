@@ -10,7 +10,7 @@
  * Marker Type <STRING>
  *
  * Example:
- * ["GROUP"] call qipTPL_bft_fnc_getGroupMarkerType
+ * ["GROUP"] call qipBFT_bft_fnc_getGroupMarkerType
  *
  * Public: No
  */

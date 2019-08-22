@@ -1,14 +1,14 @@
 class CfgFactionClasses {
     class NO_CATEGORY;
-    class QIPTPL: NO_CATEGORY {
-        displayName = "QIPTPL";
+    class QIPBFT: NO_CATEGORY {
+        displayName = "QIPBFT";
         priority = 2;
         side = 7;
     };
 };
 
 class CfgVehicleClasses {
-    class QIPTPL_Vehicles {
-        displayName = "QIPTPL Vehicles";
+    class QIPBFT_Vehicles {
+        displayName = "QIPBFT Vehicles";
     };
 };

@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * call qipTPL_bft_fnc_createGroupMarkers
+ * call qipBFT_bft_fnc_createGroupMarkers
  *
  * Public: No
  */
@@ -27,7 +27,7 @@ if !(GVAR(showGroupIcons)) exitWith {};
     _markerSize = [_x] call FUNC(getMarkerSize);
     _markerName = _x call BIS_fnc_netId;
     _markerText = groupId _x;
-    if (_x == group qipTPL_unit) then {
+    if (_x == group qipBFT_unit) then {
         _markerPosition = (leader _x) modelToWorld [+5, +5, 0];
         _markerAlpha = 0.5;
 

@@ -1,6 +1,6 @@
 #define COMPONENT bft
 #define COMPONENT_BEAUTIFIED BluForce Tracker
-#include "\z\qiptpl\addons\main\script_mod.hpp"
+#include "\z\qipBFT\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
 // #define DISABLE_COMPILE_CACHE
@@ -15,4 +15,4 @@
     #define DEBUG_SETTINGS DEBUG_SETTINGS_BFT
 #endif
 
-#include "\z\qiptpl\addons\main\script_macros.hpp"
+#include "\z\qipBFT\addons\main\script_macros.hpp"

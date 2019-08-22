@@ -10,12 +10,12 @@
  * has any sort of GPS device <BOOL>
  *
  * Example:
- * ["UNIT"] call qipTPL_bft_fnc_getMarkerSize
+ * ["UNIT"] call qipBFT_bft_fnc_getMarkerSize
  *
  * Public: No
  */
 
-params [["_unit", qipTPL_unit]];
+params [["_unit", qipBFT_unit]];
 
 private _return = FALSE;
 

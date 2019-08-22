@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 #######################
-#  QIPTPL Setup Script  #
+#  QIPBFT Setup Script  #
 #######################
 
 import os
@@ -13,26 +13,26 @@ import winreg
 
 ######## GLOBALS #########
 MAINDIR = "z"
-PROJECTDIR = "qiptpl"
+PROJECTDIR = "qipBFT"
 ##########################
 
 def main():
     FULLDIR = "{}\\{}".format(MAINDIR,PROJECTDIR)
     print("""
   ######################################
-  # QIPTPL Development Environment Setup #
+  # QIPBFT Development Environment Setup #
   ######################################
 
-  This script will create your QIPTPL dev environment for you.
+  This script will create your QIPBFT dev environment for you.
 
   Before you run this, you should already have:
     - A properly setup ACE3 Development Environment
 
   If you have not done those things yet, please abort this script in the next step and do so first.
 
-  This script will create two hard links on your system, both pointing to your QIPTPL project folder:
-    [Arma 3 installation directory]\\{} => QIPTPL project folder
-    P:\\{}                              => QIPTPL project folder
+  This script will create two hard links on your system, both pointing to your QIPBFT project folder:
+    [Arma 3 installation directory]\\{} => QIPBFT project folder
+    P:\\{}                              => QIPBFT project folder
     """.format(FULLDIR,FULLDIR))
     print("\n")
 

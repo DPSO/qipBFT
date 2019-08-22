@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * call qipTPL_bft_fnc_clearHints
+ * call qipBFT_bft_fnc_clearHints
  *
  * Public: No
  */

@@ -10,7 +10,7 @@
  * Lifestate <STRING>
  *
  * Example:
- * ["UNIT"] call qipTPL_bft_fnc_getUnitLifeState
+ * ["UNIT"] call qipBFT_bft_fnc_getUnitLifeState
  *
  * Public: No
  */

@@ -7,8 +7,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "qiptpl_main",
-            "qiptpl_assets"
+            "qipBFT_main"
         };
         author = "";
         authors[] = {""};
@@ -17,4 +16,3 @@ class CfgPatches {
 };
 
 #include "CfgEventHandlers.hpp"
-#include "CfgVehicles.hpp"

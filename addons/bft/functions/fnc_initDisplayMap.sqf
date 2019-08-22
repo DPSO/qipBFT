@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [display] call qipTPL_bft_fnc_initDisplayMission
+ * [display] call qipBFT_bft_fnc_initDisplayMission
  *
  * Public: No
  */

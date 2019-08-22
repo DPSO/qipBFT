@@ -1,7 +1,7 @@
 // COMPONENT should be defined in the script_component.hpp and included BEFORE this hpp
 
 #define MAINPREFIX z
-#define PREFIX qiptpl
+#define PREFIX qipBFT
 
 #include "script_version.hpp"
 
@@ -13,7 +13,7 @@
 #define REQUIRED_CBA_VERSION {3,12,1}
 
 #ifdef COMPONENT_BEAUTIFIED
-    #define COMPONENT_NAME QUOTE(qipTPL - COMPONENT_BEAUTIFIED)
+    #define COMPONENT_NAME QUOTE(qipBFT - COMPONENT_BEAUTIFIED)
 #else
-    #define COMPONENT_NAME QUOTE(qipTPL - COMPONENT)
+    #define COMPONENT_NAME QUOTE(qipBFT - COMPONENT)
 #endif

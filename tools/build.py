@@ -6,7 +6,7 @@ import subprocess
 
 ######## GLOBALS #########
 MAINPREFIX = "z"
-PREFIX = "qiptpl_"
+PREFIX = "qipBFT_"
 ##########################
 
 def mod_time(path):
@@ -32,7 +32,7 @@ def check_for_obsolete_pbos(addonspath, file):
 def main():
     print("""
   ####################
-  # QIPTPL Debug Build #
+  # QIPBFT Debug Build #
   ####################
 """)
 

@@ -10,14 +10,14 @@
  * None
  *
  * Example:
- * call qipTPL_bft_fnc_createUnitMarkers
+ * call qipBFT_bft_fnc_createUnitMarkers
  *
  * Public: No
  */
 
 if !(GVAR(showOwnGroupUnits)) exitWith {};
 
-private _playersGroupUnitsToDrawMarkers = units (group qipTPL_unit);
+private _playersGroupUnitsToDrawMarkers = units (group qipBFT_unit);
 
 {
     private ["_markerType", "_markerColor", "_markerSize", "_markerDir", "_markerName", "_markerText", "_marker"];

@@ -10,7 +10,7 @@
  * friendly sides <ARRAY>
  *
  * Example:
- * [side] call qipTPL_bft_fnc_getFriendlySides
+ * [side] call qipBFT_bft_fnc_getFriendlySides
  *
  * Public: No
  */

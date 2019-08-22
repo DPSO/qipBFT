@@ -10,7 +10,7 @@
  * Marker Color <STRING>
  *
  * Example:
- * ["UNIT"] call qipTPL_bft_fnc_getMarkerColor
+ * ["UNIT"] call qipBFT_bft_fnc_getMarkerColor
  *
  * Public: No
  */
