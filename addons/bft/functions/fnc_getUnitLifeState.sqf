@@ -43,7 +43,7 @@ switch (GVAR(medicalSystem)) do {
         if ((!isNil {_unit getVariable "tcb_ais_agony"}) && ((_unit getVariable "tcb_ais_agony"))) exitWith {"INCAPACITATED"};
     };
     case "ACE": {
-        if ([_unit] call ace_medical_fnc_isInStableCondition) then {_lifestate = "INJURED"};
+        if !([_unit] call ace_medical_fnc_isInStableCondition) then {_lifestate = "INJURED"};
         if ((!isNil {_unit getVariable "ACE_isUnconscious"}) && ((_unit getVariable "ACE_isUnconscious"))) then {_lifestate = "INCAPACITATED"};
         // Used with ace medical rewrite
         //_unitState = [_unit, ace_medical_STATE_MACHINE] call CBA_statemachine_fnc_getCurrentState;
