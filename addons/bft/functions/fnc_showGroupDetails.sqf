@@ -34,15 +34,16 @@ _groupCount = count (units _group);
 _unitNameList = "";
 
 {
-    private ["_color", "_unitMOS", "_unitName", "_leader", "_vehicle"];
-    _color = [_x] call FUNC(getMarkerColor);
+    private ["_markerColorName", "_color", "_unitMOS", "_unitName", "_leader", "_vehicle"];
+    _markerColorName = [_x] call FUNC(getMarkerColor);
+    _color = (getArray (configFile >> "CfgMarkerColors" >> _markerColorName >> "color")) call BIS_fnc_colorRGBtoHTML;
     _unitMOS = "[" + getText (configFile >> "CfgVehicles" >> (typeOf _x) >> "displayName") + "]";
     _unitName = name _x;
     _leader = "";
     _vehicle = "";
 
     if (leader (group _x) == _x) then {
-        _leader = "[TL]";
+        _leader = "[L]";
     };
 
     if (vehicle _x != _x) then {
@@ -53,7 +54,7 @@ _unitNameList = "";
         _unitName = "[AI]";
     };
 
-    _unitNameList = _unitNameList + format ["<t align='left'><t color='%2'>%1</t></t>",_unitName,_color] + format ["<t align='right'><t size='0.75'><t color='%1'>%2%3%4</t></t></t>",_color,_leader,_vehicle,_unitMOS] + "<br/>";
+    _unitNameList = _unitNameList + format ["<t align='left'><t color='%1'>%2</t></t>",_color,_unitName] + format ["<t align='right'><t size='0.75'>%1 %2 %3</t></t>",_leader,_vehicle,_unitMOS] + "<br/>";
 } forEach (units _group);
 
 hintSilent parseText format [
