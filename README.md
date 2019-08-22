@@ -1,4 +1,4 @@
-<p align="center"><h1>[qip] BFT</h1></p>
+<h1 align="center">[qip] BFT</h1>
 
 <p align="center">
     <a href="https://github.com/quies-in-proelium/qipBFT/releases/latest">
