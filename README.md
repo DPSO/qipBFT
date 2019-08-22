@@ -1,6 +1,4 @@
-<p align="center">
-# [qip] BFT
-</p>
+<p align="center"><h1>[qip] BFT</h1></p>
 
 <p align="center">
     <a href="https://github.com/quies-in-proelium/qipBFT/releases/latest">
@@ -21,7 +19,7 @@
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a></strong></sup>
 </p>
 
-**[qip] BFT** is born out of the idea to rewrite a BFT script into a Mod and ending up writing it almost complete from scratch
+**[qip] BFT** is born out of the idea to rewrite a BFT script into a Mod and ending up writing it almost completely from scratch
 
 ## Features
 
