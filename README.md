@@ -10,6 +10,9 @@
     <a href="https://github.com/quies-in-proelium/qipBFT/releases">
         <img src="https://img.shields.io/github/downloads/quies-in-proelium/qipBFT/total.svg?style=flat-square&label=Downloads" alt="qipBFT Downloads">
     </a>
+    <a href="https://forums.bohemia.net/forums/topic/225047-qip-bft/">
+        <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg?style=flat-square" alt="BIF Thread">
+    </a>
     <a href="https://github.com/quies-in-proelium/qipBFT/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA-orange?style=flat-square" alt="qipBFT License">
     </a>
@@ -19,7 +22,11 @@
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a></strong></sup>
 </p>
 
-**[qip] BFT** is born out of the idea to rewrite a BFT script into a Mod and ending up writing it almost completely from scratch
+**[qip] BFT** is born out of the idea to rewrite a BFT script into a Mod and ending up writing it almost completely from scratch.
+Thankfully there is an open and helping community which made that possible.
+
+BFT (Blufor Tracking or Blue Force Tracking) shows friendly units on a map. I this case this would be the map, GPS or any
+other device which can display local markers. It's up to you what you want to track, almost everything is configurable.
 
 ## Features
 
@@ -31,5 +38,11 @@
 - unit live state for several medical mods/scripts and vanilla
 - unit assigned team color
 
+## Dependencies
+- <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>
+- <a href="https://github.com/acemod/ACE3/releases">ACE3 (optional)﻿﻿</a>
+
+
+And for all of you developers out there PR's are welcome.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />qipBFT is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
