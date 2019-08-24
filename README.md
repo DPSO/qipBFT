@@ -22,10 +22,10 @@
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a></strong></sup>
 </p>
 
-**[qip] BFT** is born out of the idea to rewrite a BFT script into a Mod and ending up writing it almost completely from scratch.
+**[qip] BFT** is born out of the idea to rewrite a BFT script into a Mod and ending up writing it almost completely from scratch.<br>
 Thankfully there is an open and helping community which made that possible.
 
-BFT (Blufor Tracking or Blue Force Tracking) shows friendly units on a map. I this case this would be the map, GPS or any
+BFT (Blufor Tracking or Blue Force Tracking) shows friendly units on a map. In this case this would be the map, GPS or any
 other device which can display local markers. It's up to you what you want to track, almost everything is configurable.
 
 ## Features
@@ -35,13 +35,18 @@ other device which can display local markers. It's up to you what you want to tr
 - dynamic diplomacy updates show units based on the friend state
 - group details on group icon hover (on click is planned)
 - unit tracking for own Group
-- unit live state for several medical mods/scripts and vanilla
+- unit life state for several medical mods/scripts and vanilla
 - unit assigned team color
 
 ## Dependencies
 - <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>
 - <a href="https://github.com/acemod/ACE3/releases">ACE3 (optional)﻿﻿</a>
 
+## Screenshot
+| Overview | Own group |
+| Own group with teamcolors | Injured / Unconscious | <br>
+<img src="docs/assets/images/overview.jpg" width="45%"></img> <img src="docs/assets/images/own_group.jpg" width="45%"></img>
+<img src="docs/assets/images/own_group_with_teamcolors.jpg" width="45%"></img> <img src="docs/assets/images/injured_unconscious.jpg" width="45%"></img>
 
 And for all of you developers out there PR's are welcome.
 
