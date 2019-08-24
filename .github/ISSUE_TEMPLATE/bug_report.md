@@ -7,26 +7,24 @@ assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Arma 3 Version:** `x.xx` (stable / rc / dev)
+**CBA Version:** `3.x.x` (stable / dev + commit hash)
+**BFT Version:** `x.x.x`
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Mods:**
+```
+- CBA_A3
+- qipBFT
+```
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Description:**
+- Add a detailed description of the error. This makes it easier for us to fix the issue.
 
-**Screenshots & RPT**
-If applicable, add screenshots and/or RPT Log to help explain your problem.
+**Steps to reproduce:**
+- Add the steps needed to reproduce the issue.
 
-**Please complete the following information:**
- - Arma Version [e.g. 1.94]
- - Mod Version [e.g. v1.0.2]
- - CBA Version [e.g. v3.12.1.190812]
+**Where did the issue occur?**
+- Dedicated / Self-Hosted Multiplayer / Singleplayer / Editor (Singleplayer) / Editor (Multiplayer) / Virtual Arsenal
 
-**Additional context**
-Add any other context about the problem here.
+**RPT log file:**
+- Add a link ([gist](https://gist.github.com) or [pastebin](http://pastebin.com)) to the client and/or server RPT file. An instruction to find your RPT files can be found [here](https://community.bistudio.com/wiki/Crash_Files#Arma_3).
