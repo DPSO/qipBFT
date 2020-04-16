@@ -157,7 +157,7 @@
     "LIST",
     "Medical System that is used",
     ["qipBFT - BFT","Medical"],
-    [["BIS","BTC","AIS","ACE","FAR","AWS"],["BIS","BTC","AIS","ACE","FAR","AWS"],0],
+    [["BIS","ACE"],["BIS","ACE"],0],
     1,
     nil,
     true
