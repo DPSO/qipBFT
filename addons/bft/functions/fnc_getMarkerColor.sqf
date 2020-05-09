@@ -29,6 +29,7 @@ if (_unit in allUnits) then {
         _assignedTeam = "MAIN";
     } else {
         _assignedTeam = [assignedTeam _unit] param [0, "MAIN"];
+        if (_assignedTeam == "") then {_assignedTeam = "MAIN"};
     };
     _color = ["Color", _assignedTeam, GVAR(teamColors)] joinString "_";
     if (GVAR(showLifeState)) then {
