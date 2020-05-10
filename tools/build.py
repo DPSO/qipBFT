@@ -32,7 +32,7 @@ def check_for_obsolete_pbos(addonspath, file):
 def main():
     print("""
   ####################
-  # QIPBFT Debug Build #
+  # qipBFT Debug Build #
   ####################
 """)
 
