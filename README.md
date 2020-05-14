@@ -2,19 +2,19 @@
 
 <p align="center">
     <a href="https://github.com/quies-in-proelium/qipBFT/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.0.2-blue.svg?style=flat-square" alt="qipBFT Version">
+        <img src="https://img.shields.io/github/v/release/quies-in-proelium/qipBFT" alt="qipBFT Version">
     </a>
     <a href="https://github.com/quies-in-proelium/qipBFT/issues">
-        <img src="https://img.shields.io/github/issues-raw/quies-in-proelium/qipBFT.svg?style=flat-square&label=Issues" alt="qipBFT Issues">
+        <img src="https://img.shields.io/github/issues/quies-in-proelium/qipBFT" alt="qipBFT Issues">
     </a>
     <a href="https://github.com/quies-in-proelium/qipBFT/releases">
-        <img src="https://img.shields.io/github/downloads/quies-in-proelium/qipBFT/total.svg?style=flat-square&label=Downloads" alt="qipBFT Downloads">
+        <img src="https://img.shields.io/github/downloads/quies-in-proelium/qipBFT/total" alt="qipBFT Downloads">
     </a>
     <a href="https://forums.bohemia.net/forums/topic/225047-qip-bft/">
-        <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg?style=flat-square" alt="BIF Thread">
+        <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg" alt="BIF Thread">
     </a>
     <a href="https://github.com/quies-in-proelium/qipBFT/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA-orange?style=flat-square" alt="qipBFT License">
+        <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA-orange" alt="qipBFT License">
     </a>
 </p>
 
